@@ -1,0 +1,12 @@
+.travis.yml
+.eslintrc
+.babelrc
+.gitignore
+.DS_Store
+/.nyc_output
+/coverage
+/test
+/build
+/src
+*.log*
+yarn.lock

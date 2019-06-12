@@ -1,0 +1,42 @@
+{
+  "name": "@mozaik/themes",
+  "version": "1.0.0-alpha.17",
+  "description": "Mozaïk official themes",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plouc/mozaik"
+  },
+  "author": {
+    "name": "Raphaël Benitte",
+    "url": "https://github.com/plouc"
+  },
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "es/index.js",
+  "jsnext:main": "es/index.js",
+  "keywords": [
+    "mozaik",
+    "theming",
+    "themes",
+    "components",
+    "widget",
+    "dashboard",
+    "framework",
+    "dataviz",
+    "react"
+  ],
+  "devDependencies": {
+    "@mozaik/babel-preset": "^1.0.0-alpha.6",
+    "babel-cli": "^6.24.1",
+    "cross-env": "^5.0.1"
+  },
+  "scripts": {
+    "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+    "build:commonjs:watch": "npm run build:commonjs -- --watch",
+    "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
+    "build:es:watch": "npm run build:es -- --watch",
+    "build": "npm run build:commonjs && npm run build:es",
+    "version": "echo ${npm_package_version}",
+    "prepublishOnly": "npm run build"
+  }
+}
