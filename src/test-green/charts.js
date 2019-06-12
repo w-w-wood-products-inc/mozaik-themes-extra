@@ -7,14 +7,14 @@ export default {
         legendColor: colors.text,
     },
     grid: {
-        stroke: '#073642',
+        stroke: '#25303d',
     },
-    colors: ['#00b2b0', '#24dead', '#d9d356', '#f1c4c2', '#dfbbe8'],
+    colors: ['#0d7d00', '#02cb00', '#0b9c00', '#013100', '#253445'],
     tooltip: {
-        background: '#073c49',
-        color: '#bed0d2',
+        background: '#323f53',
+        color: '#f6ecd0',
         fontSize: '1.4vmin',
-        borderRadius: 0,
+        borderRadius: '2px',
         boxShadow: '0 1px 3px rgba(0, 0, 0, 0.5)',
     },
 }

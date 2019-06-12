@@ -3,7 +3,7 @@ import charts from './charts'
 import typography from './typography'
 
 export default {
-    name: 'night blue',
+    name: 'Test Green',
     typography,
     colors,
     root: {
@@ -19,14 +19,14 @@ export default {
     },
     dashboard: {
         header: {
-            background: '#2b3847',
+            background: '#003c0b',
             color: colors.text,
             boxShadow: '0 1px 1px rgba(0, 0, 0, 0.35)',
             title: {},
         },
     },
     widget: {
-        background: '#2b3847',
+        background: '#00400b',
         extend: `
         border-radius: 2px;
         box-shadow: 0 1px 1px rgba(0, 0, 0, .35);
@@ -36,7 +36,7 @@ export default {
         },
         header: {
             height: '5vmin',
-            background: '#323f53',
+            background: '#005100',
             color: colors.text,
             extend: `
             box-shadow: 0 1px 0 #495b71 inset;
@@ -56,7 +56,7 @@ export default {
             },
             icon: {
                 fontSize: '2.2vmin',
-                color: '#e0c671',
+                color: '#5de001',
             },
         },
         body: {
@@ -79,7 +79,7 @@ export default {
         border-radius: 2px;
         `,
         main: {
-            background: '#212e41',
+            background: '#0a2002',
             color: '#e0c671',
         },
         addon: {
@@ -96,10 +96,10 @@ export default {
             }
             `,
             hover: {
-                background: '#2f3d4b',
+                background: '#02cb00',
             },
             meta: {
-                color: '#879db7',
+                color: '#ffffff',
             },
         },
     },

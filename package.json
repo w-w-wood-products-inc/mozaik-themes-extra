@@ -1,14 +1,10 @@
 {
-  "name": "@mozaik/themes",
-  "version": "1.0.0-alpha.17",
-  "description": "Mozaïk official themes",
+  "name": "mozaik-themes-extra",
+  "version": "0.0.1-Alpha-5",
+  "description": "Extra themes for Mozaïk",
   "repository": {
     "type": "git",
-    "url": "git://github.com/plouc/mozaik"
-  },
-  "author": {
-    "name": "Raphaël Benitte",
-    "url": "https://github.com/plouc"
+    "url": "git://github.com/w-w-wood-products-inc/mozaik-themes-extra"
   },
   "license": "MIT",
   "main": "./lib/index.js",
