@@ -22,7 +22,7 @@
     "react"
   ],
   "devDependencies": {
-    "@mozaik/babel-preset": "^1.0.0-alpha.6",
+    "@mozaik/babel-preset": "^1.0.0-alpha.7",
     "babel-cli": "^6.24.1",
     "cross-env": "^5.0.1"
   },
