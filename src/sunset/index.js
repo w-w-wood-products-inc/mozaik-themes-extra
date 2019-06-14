@@ -90,7 +90,7 @@ export default {
     list: {
         item: {
             extend: `
-            border-bottom: 1px solid #253246;
+            border-bottom: 1px solid #7b419b;
             &:last-child {
                 border-bottom: 0;
             }

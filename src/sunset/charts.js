@@ -7,7 +7,7 @@ export default {
         legendColor: colors.text,
     },
     grid: {
-        stroke: '#31253d',
+        stroke: '#7b419b',
     },
     colors: ['#7b419b', '#964db5', '#5f227a', '#640d89', '#44075e'],
     tooltip: {
