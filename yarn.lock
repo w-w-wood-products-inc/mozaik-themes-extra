@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@mozaik/babel-preset@^1.0.0-alpha.6":
+"@mozaik/babel-preset@^1.0.0-alpha.7":
   version "1.0.0-alpha.6"
   resolved "http://npm.wwinc.com/@mozaik%2fbabel-preset/-/babel-preset-1.0.0-alpha.6.tgz#2c24493a985e35b51dd7cbe5966b3111d52f0ea1"
   integrity sha1-LCRJOpheNbUd18vllmsxEdUvDqE=
