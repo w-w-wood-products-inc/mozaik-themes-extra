@@ -11,6 +11,7 @@ A collection of extra themes for Mozaïk.
 
 -   `Test Green`
 -   `Sunset`
+-   `Wood`
 
 [license-image]: https://img.shields.io/github/license/w-w-wood-products-inc/mozaik-themes-extra.svg?style=flat-square
 [license-url]: https://github.com/w-w-wood-products-inc/mozaik-themes-extra/blobs/master/LICENSE.md
