@@ -3,7 +3,7 @@ import charts from './charts'
 import typography from './typography'
 
 export default {
-    name: 'Wood',
+    name: 'Dark Wood',
     typography,
     colors,
     root: {
