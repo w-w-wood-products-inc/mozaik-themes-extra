@@ -40,7 +40,7 @@ export default {
             color: colors.text,
             extend: `
             box-shadow: 0 1px 0 #495b71 inset;
-            border-bottom: 1px solid #253246;
+            border-bottom: 1px solid #5de001;
             border-radius: 2px 2px 0 0;
             `,
             subject: {},
@@ -90,7 +90,7 @@ export default {
     list: {
         item: {
             extend: `
-            border-bottom: 1px solid #28323f;
+            border-bottom: 1px solid #5de001;
             &:last-child {
                 border-bottom: 0;
             }
