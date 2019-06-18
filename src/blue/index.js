@@ -45,7 +45,7 @@ export default {
             `,
             subject: {},
             count: {
-                color: '#0090ff',
+                color: '#0000ff',
                 extend: `
                 background-color: #767777;
                 box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) inset;
@@ -80,11 +80,11 @@ export default {
         `,
         main: {
             background: '#767777',
-            color: '#0090ff',
+            color: '#0000ff',
         },
         addon: {
             background: '#767777',
-            color: '#0090ff',
+            color: '#0000ff',
         },
     },
     list: {
@@ -99,7 +99,7 @@ export default {
                 background: '#767777',
             },
             meta: {
-                color: '#0090ff',
+                color: '#0000ff',
             },
         },
     },
