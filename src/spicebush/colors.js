@@ -1,6 +1,6 @@
 export default {
-    text: '#a84c00',
-    textHighlight: '#a84c00',
+    text: '#002b2b',
+    textHighlight: '#002b2b',
     background: '#009e9e',
     icon: '#a84c00',
     unknown: '#009e9e',

@@ -13,7 +13,7 @@ export default {
         @import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,800|Montserrat:400,700');
         
         & a {
-            color: #a84c00;
+            color: #002b2b;
         }
         `,
     },
@@ -45,7 +45,7 @@ export default {
             `,
             subject: {},
             count: {
-                color: '#a84c00',
+                color: '#002b2b',
                 extend: `
                 background-color: #009e9e;
                 box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) inset;
@@ -80,11 +80,11 @@ export default {
         `,
         main: {
             background: '#009e9e',
-            color: '#a84c00',
+            color: '#002b2b',
         },
         addon: {
             background: '#009e9e',
-            color: '#a84c00',
+            color: '#002b2b',
         },
     },
     list: {
@@ -99,7 +99,7 @@ export default {
                 background: '#009e9e',
             },
             meta: {
-                color: '#a84c00',
+                color: '#002b2b',
             },
         },
     },
