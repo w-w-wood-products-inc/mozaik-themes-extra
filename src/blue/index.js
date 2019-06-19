@@ -3,7 +3,7 @@ import charts from './charts'
 import typography from './typography'
 
 export default {
-    name: 'blue',
+    name: 'Blue',
     typography,
     colors,
     root: {
