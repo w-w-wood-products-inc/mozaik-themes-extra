@@ -9,7 +9,18 @@ export default {
     grid: {
         stroke: '#25303d',
     },
-    colors: ['#dfa626', '#EE4A00', '#EE7A00', '#007095', '#00A164', "#462414", '#0E242C', '#0E3023'],
+    colors: [
+      '#007095',
+      '#00A164',
+        '#EE4A00',
+        '#EE7A00',
+      '#dfa626',
+
+
+      "#462414",
+      '#0E242C',
+      '#0E3023'
+    ],
     tooltip: {
         background: '#323f53',
         color: '#f6ecd0',
