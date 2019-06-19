@@ -13,7 +13,7 @@ export default {
         @import url('https://fonts.googleapis.com/css?family=Merriweather:200,400,600,800|Merriweather:400,700');
         
         & a {
-            color: #0000ff;
+            color: #84b4dc;
         }
         `,
     },
@@ -45,7 +45,7 @@ export default {
             `,
             subject: {},
             count: {
-                color: '#0000ff',
+                color: '#84b4dc',
                 extend: `
                 background-color: #767777;
                 box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) inset;
@@ -80,11 +80,11 @@ export default {
         `,
         main: {
             background: '#767777',
-            color: '#0000ff',
+            color: '#84b4dc',
         },
         addon: {
             background: '#767777',
-            color: '#0000ff',
+            color: '#84b4dc',
         },
     },
     list: {
@@ -99,7 +99,7 @@ export default {
                 background: '#767777',
             },
             meta: {
-                color: '#0000ff',
+                color: '#84b4dc',
             },
         },
     },
