@@ -19,7 +19,7 @@ export default {
     },
     dashboard: {
         header: {
-            background: '#100305',
+            background: '#100e10',
             color: colors.text,
             boxShadow: '0 1px 1px rgba(0, 0, 0, 0.35)',
             title: {},
