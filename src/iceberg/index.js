@@ -19,14 +19,14 @@ export default {
     },
     dashboard: {
         header: {
-            background: '#1d1e21',
-            color: colors.text,
+            background: '#FFFFFF',
+            color: '#000000',
             boxShadow: '0 1px 1px rgba(0, 0, 0, 0.35)',
             title: {},
         },
     },
     widget: {
-        background: '#262729',
+        background: '#2D353C',
         extend: `
         border-radius: 2px;
         box-shadow: 0 1px 1px rgba(0, 0, 0, .35);
@@ -39,8 +39,6 @@ export default {
             background: '#262729',
             color: colors.text,
             extend: `
-            box-shadow: 0 1px 0 #2f3031 inset;
-            border-bottom: 1px solid #2f3031;
             border-radius: 2px 2px 0 0;
             `,
             subject: {},

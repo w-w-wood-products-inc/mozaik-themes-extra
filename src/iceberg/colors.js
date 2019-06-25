@@ -1,8 +1,8 @@
 export default {
-    text: '#EFEFEF',
-    textHighlight: '#A7B0B0',
-    background: '#2f3031',
-    icon: '#af351e',
+    text: '#a9a9a9',
+    textHighlight: '#dedec9',
+    background: '#d9e0e7',
+    icon: '#a9a9a9',
     unknown:  '#2f3031',
     success: '#4ec26e',
     warning: '#d1be65',
