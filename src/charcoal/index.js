@@ -3,7 +3,7 @@ import charts from './charts'
 import typography from './typography'
 
 export default {
-    name: 'Blue',
+    name: 'Charcoal',
     typography,
     colors,
     root: {
@@ -19,14 +19,14 @@ export default {
     },
     dashboard: {
         header: {
-            background: '#767777',
+            background: '#1d1e21',
             color: colors.text,
             boxShadow: '0 1px 1px rgba(0, 0, 0, 0.35)',
             title: {},
         },
     },
     widget: {
-        background: '#767777',
+        background: '#262729',
         extend: `
         border-radius: 2px;
         box-shadow: 0 1px 1px rgba(0, 0, 0, .35);
@@ -36,7 +36,7 @@ export default {
         },
         header: {
             height: '5vmin',
-            background: '#767777',
+            background: '#262729',
             color: colors.text,
             extend: `
             box-shadow: 0 1px 0 #495b71 inset;
@@ -56,7 +56,7 @@ export default {
             },
             icon: {
                 fontSize: '2.2vmin',
-                color: '#0090ff',
+                color: colors.icon,
             },
         },
         body: {
