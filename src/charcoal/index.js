@@ -13,7 +13,7 @@ export default {
         @import url('https://fonts.googleapis.com/css?family=Merriweather:200,400,600,800|Merriweather:400,700');
         
         & a {
-            color: #84b4dc;
+            color: #39638a;
         }
         `,
     },
@@ -39,15 +39,15 @@ export default {
             background: '#262729',
             color: colors.text,
             extend: `
-            box-shadow: 0 1px 0 #495b71 inset;
-            border-bottom: 1px solid #003fff;
+            box-shadow: 0 1px 0 #2f3031 inset;
+            border-bottom: 1px solid #2f3031;
             border-radius: 2px 2px 0 0;
             `,
             subject: {},
             count: {
-                color: '#84b4dc',
+                color: '#FFFFFF',
                 extend: `
-                background-color: #767777;
+                background-color: #39638a;
                 box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) inset;
                 text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
                 border-radius: 2px;
@@ -79,27 +79,27 @@ export default {
         border-radius: 2px;
         `,
         main: {
-            background: '#767777',
-            color: '#84b4dc',
+            background: '#1d1e21',
+            color: '#FFFF',
         },
         addon: {
-            background: '#767777',
-            color: '#84b4dc',
+            background: '#1d1e21',
+            color: '#FFFF',
         },
     },
     list: {
         item: {
             extend: `
-            border-bottom: 1px solid #003fff;
+            border-bottom: 1px solid #1d1e21;
             &:last-child {
                 border-bottom: 0;
             }
             `,
             hover: {
-                background: '#767777',
+                background: '#1d1e21',
             },
             meta: {
-                color: '#84b4dc',
+                color: '#ecb613',
             },
         },
     },

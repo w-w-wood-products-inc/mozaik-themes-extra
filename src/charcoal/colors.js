@@ -1,9 +1,9 @@
 export default {
-    text: '#FFFFFF',
-    textHighlight: '#39638a',
+    text: '#EFEFEF',
+    textHighlight: '#A7B0B0',
     background: '#2f3031',
     icon: '#af351e',
-    unknown: '#003fff',
+    unknown:  '#2f3031',
     success: '#4ec26e',
     warning: '#d1be65',
     failure: '#de5029',
