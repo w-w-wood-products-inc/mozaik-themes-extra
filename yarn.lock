@@ -1373,6 +1373,11 @@ minimist@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
+mozaik-themes-extra@^0.0.1-Alpha-59:
+  version "0.0.1-Alpha-59"
+  resolved "http://npm.wwinc.com/mozaik-themes-extra/-/mozaik-themes-extra-0.0.1-Alpha-59.tgz#4934f11112f76de0000687aa42ef0ae722860e1b"
+  integrity sha512-gxAZPrKeVXKuwymAl97Ma+U0EfJECB7sRzWqzD7PinYUGqkd0gAzkBhxkETUQkz/E+cwqV0mkIBLd7O1ppGNOA==
+
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"

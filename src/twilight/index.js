@@ -3,7 +3,7 @@ import charts from './charts'
 import typography from './typography'
 
 export default {
-    name: 'Dark Wood',
+    name: 'Twilight',
     typography,
     colors,
     root: {
@@ -96,7 +96,7 @@ export default {
             }
             `,
             hover: {
-                background: '#281415',
+                background: '#000000',
             },
             meta: {
                 color: '#ffffff',

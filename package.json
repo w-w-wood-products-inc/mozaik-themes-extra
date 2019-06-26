@@ -1,6 +1,6 @@
 {
   "name": "mozaik-themes-extra",
-  "version": "0.0.1-Alpha-57",
+  "version": "0.0.1-Alpha-62",
   "description": "Extra themes for Mozaïk",
   "repository": {
     "type": "git",
@@ -34,5 +34,8 @@
     "build": "npm run build:commonjs && npm run build:es",
     "version": "echo ${npm_package_version}",
     "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "mozaik-themes-extra": "^0.0.1-Alpha-59"
   }
 }
