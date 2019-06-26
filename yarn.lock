@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@mozaik/babel-preset@^1.0.0-alpha.7":
+"@mozaik/babel-preset@^1.0.0-alpha.6":
   version "1.0.0-alpha.6"
   resolved "http://npm.wwinc.com/@mozaik%2fbabel-preset/-/babel-preset-1.0.0-alpha.6.tgz#2c24493a985e35b51dd7cbe5966b3111d52f0ea1"
   integrity sha1-LCRJOpheNbUd18vllmsxEdUvDqE=
@@ -1372,6 +1372,11 @@ minimist@^1.2.0:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mozaik-themes-extra@^0.0.1-Alpha-59:
+  version "0.0.1-Alpha-59"
+  resolved "http://npm.wwinc.com/mozaik-themes-extra/-/mozaik-themes-extra-0.0.1-Alpha-59.tgz#4934f11112f76de0000687aa42ef0ae722860e1b"
+  integrity sha512-gxAZPrKeVXKuwymAl97Ma+U0EfJECB7sRzWqzD7PinYUGqkd0gAzkBhxkETUQkz/E+cwqV0mkIBLd7O1ppGNOA==
 
 ms@0.7.1:
   version "0.7.1"

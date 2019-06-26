@@ -3,30 +3,30 @@ import charts from './charts'
 import typography from './typography'
 
 export default {
-    name: 'Test Green',
+    name: 'Iceberg',
     typography,
     colors,
     root: {
         color: colors.text,
         background: colors.background,
         extend: `
-        @import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,800|Montserrat:400,700');
+        @import url('https://fonts.googleapis.com/css?family=Merriweather:200,400,600,800|Merriweather:400,700');
         
         & a {
-            color: #f6ecd0;
+            color: #FFFFFF;
         }
         `,
     },
     dashboard: {
         header: {
-            background: '#003c0b',
-            color: colors.text,
+            background: '#FFFFFF',
+            color: '#000000',
             boxShadow: '0 1px 1px rgba(0, 0, 0, 0.35)',
             title: {},
         },
     },
     widget: {
-        background: '#00400b',
+        background: '#2D353C',
         extend: `
         border-radius: 2px;
         box-shadow: 0 1px 1px rgba(0, 0, 0, .35);
@@ -36,18 +36,16 @@ export default {
         },
         header: {
             height: '5vmin',
-            background: '#005100',
+            background: '#2D353C',
             color: colors.text,
             extend: `
-            box-shadow: 0 1px 0 #495b71 inset;
-            border-bottom: 1px solid #253246;
             border-radius: 2px 2px 0 0;
             `,
             subject: {},
             count: {
-                color: '#7e9ebc',
+                color: '#FFFFFF',
                 extend: `
-                background-color: #1e2836;
+                background-color: #39638a;
                 box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) inset;
                 text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
                 border-radius: 2px;
@@ -56,7 +54,7 @@ export default {
             },
             icon: {
                 fontSize: '2.2vmin',
-                color: '#5de001',
+                color: colors.icon,
             },
         },
         body: {
@@ -79,27 +77,27 @@ export default {
         border-radius: 2px;
         `,
         main: {
-            background: '#0a2002',
-            color: '#e0c671',
+            background: '#2D353C',
+            color: '#FFFF',
         },
         addon: {
-            background: '#1e2836',
-            color: '#e0c671',
+            background: '#2D353C',
+            color: '#E1FFFF',
         },
     },
     list: {
         item: {
             extend: `
-            border-bottom: 1px solid #28323f;
+            border-bottom: 1px solid #1d1e21;
             &:last-child {
                 border-bottom: 0;
             }
             `,
             hover: {
-                background: '#02cb00',
+                background: '#1d1e21',
             },
             meta: {
-                color: '#ffffff',
+                color: '#ecb613',
             },
         },
     },
