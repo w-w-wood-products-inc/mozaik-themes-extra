@@ -9,13 +9,32 @@ A collection of extra themes for Mozaïk.
 
 **Themes:**
 
--   `Night Green`
 -   `Sunset`
+
+    ![Sunset](images/Theme-Sunset.png)
 -   `Twilight`
--   `Spice Bush`
--   `Blue`
+
+    ![Twilight](images/Theme-Twilight.png)
 -   `Charcoal`
+
+    ![Charcoal](images/Theme-Charcoal.png)
+
 -   `Iceberg`
+    
+    ![Iceberg](images/Theme-Iceberg.png)
+-   `Night Green`
+
+    ![Night Green](images/Theme-NightGreen.png)
+    
+-   `Spicy Bush`
+
+    ![Spicy Bush](images/Theme-SpicyBush.png)
+    
+-   `Blue`
+
+    ![Blue](images/Theme-Blue.png)
+
+
 
 [license-image]: https://img.shields.io/github/license/w-w-wood-products-inc/mozaik-themes-extra.svg?style=flat-square
 [license-url]: https://github.com/w-w-wood-products-inc/mozaik-themes-extra/blobs/master/LICENSE.md
