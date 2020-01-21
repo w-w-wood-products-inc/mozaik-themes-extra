@@ -11,10 +11,7 @@ pool:
 
 steps:
 - script: 'npm install'
-  displayName: 'Run a one-line script'
+  displayName: 'Install npm'
 - script: 'npm run build'
-  displayName: 'run Npm run build'
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  displayName: 'npm build'
+
