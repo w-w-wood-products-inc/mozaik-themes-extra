@@ -10,9 +10,10 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
+- script: 'npm install'
   displayName: 'Run a one-line script'
-
+- script: 'npm run build'
+  displayName: 'run Npm run build'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
