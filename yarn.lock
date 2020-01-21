@@ -814,6 +814,11 @@ debug@^2.6.8, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
+deep-extend@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.5.1.tgz#b894a9dd90d3023fbf1c55a394fb858eb2066f1f"
+  integrity sha512-N8vBdOa+DF7zkRrDCsaOXoCs/E2fJfx9B9MrKnnSiHNh4ws7eSys6YQE4KvT1cecKmOASYQBhbKjeuDD9lT81w==
+
 deep-extend@~0.4.0:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.1.tgz#efe4113d08085f4e6f9687759810f807469e2253"
@@ -1409,11 +1414,6 @@ minimist@^1.2.0:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
-
-mozaik-themes-extra@^0.0.1-Alpha-59:
-  version "0.0.1-Alpha-59"
-  resolved "http://npm.wwinc.com/mozaik-themes-extra/-/mozaik-themes-extra-0.0.1-Alpha-59.tgz#4934f11112f76de0000687aa42ef0ae722860e1b"
-  integrity sha512-gxAZPrKeVXKuwymAl97Ma+U0EfJECB7sRzWqzD7PinYUGqkd0gAzkBhxkETUQkz/E+cwqV0mkIBLd7O1ppGNOA==
 
 ms@0.7.1:
   version "0.7.1"
